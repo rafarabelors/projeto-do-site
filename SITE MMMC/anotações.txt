@@ -1,0 +1,44 @@
+HTML - conteúdo
+
+CSS - design
+1.Externa: Quando crio um doc.css no projeto e conecto ao html
+2.Interna: Quando eu por meio da tag style faço o design na tag hcad 
+3.Em linha: Quando aplico a propriedade style diretamente nas tag´s no html
+	
+JAVASCRIPT -interativo
+
+tag: <comando>
+
+Referenciando as TAGS no CSS: Todos comando devem ser feito entra os {} colocando sempre ; no final do código
+
+1.Pelo id que é a indentificação única desse elemento
+Ex:
+No html:
+<p id="inicio"></p>
+
+No CSS:
+#inicio{
+
+2.Pela classe que é a indentificação em grupo de elemento por sua caracteristica/função.
+Ex:
+No html:
+<h1 class="titulo"></h1>
+
+No CSS:
+.titulo{
+font-size: 20px;
+color:pink;
+}
+
+3.Pela própria TAG
+Ex:
+No html:
+<p>Hoje...</p>
+
+No CSS:
+p{
+font-size: 14;
+font-family: 'Arial';
+}
+
+
